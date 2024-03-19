@@ -1,5 +1,5 @@
 # htb-phonebook
-A python script to bruteforce the login form for Phonebook challenge on HackTheBox.
+A simple python script to pwn [phonebook challenge](https://app.hackthebox.com/challenges/Phonebook) from HackTheBox.
 
 ## Quick Summary
 Allowing wildcards like * in passwords can introduce vulnerabilities. If a system interprets a wildcard as matching any sequence of characters, attackers could exploit this feature to guess passwords through brute force attacks, one character at a time. This is not common in real life, though.
